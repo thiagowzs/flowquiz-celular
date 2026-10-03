@@ -1,7 +1,7 @@
 // Guarda o app inteiro no aparelho para funcionar sem internet.
 // Cada versão nova tem outro nome de cache; o navegador troca este arquivo
 // sozinho quando ele muda, e a versão nova vale a partir da próxima abertura.
-const VERSAO = "flowquiz-7eb3e54f2396";
+const VERSAO = "flowquiz-1dcde7a82fd8";
 const ARQUIVOS = ["./", "index.html", "app.js", "config.js", "dados.bin", "icone-180.png", "icone-192.png", "icone-512.png", "local.js", "manifest.webmanifest", "style.css"];
 
 self.addEventListener("install", (evento) => {
